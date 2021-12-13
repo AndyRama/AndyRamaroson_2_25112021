@@ -165,7 +165,7 @@ li{
   font-weight:bold;
 }
   
-/* <-- Section hebergement --> */
+/* <-- Section hebergement article --> */
 #hebergements {
   display: flex;
   justify-content: flex-start;
@@ -187,6 +187,10 @@ li{
   border-radius: 20px;
   background-color: #f2f2f2;
   justify-content: center;
+}
+
+.heb-tite {
+
 }
 
 .heb-div{
@@ -227,6 +231,68 @@ li{
   font-size: 16px;
   font-weight: bold;
 }
+
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 35%;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  justify-content: center;
+}
+
+.pop-div {
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  border:3px solid white;
+}
+
+.pop-div:nth-child(1) {
+  border: none;
+  background-color: #f2f2f2;
+  margin-top: 0;
+}
+
+.pop-img img {
+  border-radius:20px 0 0 20px ;
+  justify-content: flex-start;
+  width: 40%;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  float: left;
+}
+
+.pop-description {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.pop-description p {
+  font-size: 12px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.pop-description h2 {
+  font-size: 16px;
+  font-weight: bold;
+} 
+
+.star {
+  color: #0065fc;
+}
+
+.no-star {
+  color: #f2f2f2;
+}
+
+/* <-- Section hebergement populaire aside --> */
+
 /* <-- Section activités --> */
 
 

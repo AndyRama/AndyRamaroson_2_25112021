@@ -30,7 +30,7 @@ li {
 
 .nav li {
   font-size: 17px;
-  font-weight: 400;
+  font-weight: bold;
   padding:  30px;
   border-top: 4px solid transparent;
   width: 50%;
@@ -46,18 +46,18 @@ li {
   
   /* <-- Resultat ok mais peut mieux faire --> */
 
-  #logo {
-    display: flex;
-    justify-content: center;
-    padding-left: 115px;
-    height: 80px;
+  .nav-logo {
+    margin-left: 110px;
+    width: 90px;
+    height: 45px;
   }
 
   .nav ul {
-    margin-left: -360px;
+    margin-left: -350px;
     margin-top: 90px;
-  }
-  /* <---------------------------------------> */
+  } 
+
+/* <---------------------------------------> */
   
   .nav li:hover {
     border-bottom: 2px solid #0065FC;
@@ -65,18 +65,18 @@ li {
   }
 
   .title {
-    font-size: 24px;
-    margin-left: 15px;
+    font-size: 26px;
+    margin-left: 10px;
   }
   
   .sub-title {
-    margin-left: 15px;
+    margin-left: 10px;
     color: black !important;
     font-weight:normal !important;
   }
+    
   
-  #research {
-    /* display: none; */
+  #search-text {
     border: 1px solid transparent;
     border-radius: 10px 10px 10px 10px;
     height: 50px;
@@ -163,8 +163,6 @@ li {
 .filter-title {
   margin-right: 20px;
   margin-bottom: 20px;
-
-  /* display: flex; */
 }
 
 .filter-btn {
@@ -181,6 +179,10 @@ li {
   margin-left: 30px;
 }
 
+.filter-icons:hover {
+  color:black ;
+}
+
 .filter-text {
   height: 50px;
   width: 280px;
@@ -188,6 +190,9 @@ li {
   border-radius: 25px 25px 25px 25px;
   margin-left: 30px;
 } 
+.filter-text:hover{
+  background-color: #e7e2e2;
+}
 
 .sub-info {
   margin-top: 30px;

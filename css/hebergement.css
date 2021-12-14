@@ -1,0 +1,160 @@
+ 
+/* <-- Section hebergement --> */
+
+#hebergement {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: center;
+  margin-top: 10px ;
+}
+
+#hebergement a {
+  text-decoration: none;
+  color: black;
+}
+
+.heb-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+}
+
+.heb-title {
+  font-weight: bold;
+  font-size: 20px ;
+  margin-top: 20px;
+}
+
+.heb-link {
+  font-weight: bold;
+  font-size: 20px ;
+  margin-top: 15px;
+   width: 100%;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  border: none;
+
+}
+
+.heb-div,
+.heb-card {
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 15px;
+  border: 3px solid white;  
+} 
+
+.heb-div:nth-child(1),
+.heb-div:nth-child(8) {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  border: none;
+}
+
+.heb-card img {
+  border-radius: 20px 20px 0 0;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heb-description {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.heb-description p {
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.heb-description h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.star {
+  color: #0065fc;
+}
+
+.no-star {
+  color: #f2f2f2;
+}
+
+/* <-- Section hebergement populaire --> */
+
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 35%;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.pop-div,
+.pop-card {
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  border:3px solid white;
+}
+
+.pop-div:nth-child(1) {
+  border: none;
+  background-color: #f2f2f2;
+  margin-top: 0;
+}
+
+.pop-title {
+  font-weight: bold;
+  font-size: 20px ;
+  margin-top: 20px;
+}
+
+.pop-title i{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+
+.pop-img img {
+  border-radius: 20px 0 0 20px ;
+  justify-content: flex-start;
+  width: 40%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  float: left;
+  margin-right: 10px;
+}
+
+.pop-description {
+padding-top: 20px;
+}
+
+.pop-description p {
+  font-size: 12px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.pop-description h2 {
+  font-size: 16px;
+  font-weight: bold;
+} 

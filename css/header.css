@@ -1,0 +1,154 @@
+/*<-- header navbar-->*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.nav-logo {
+  position: relative;
+  height: 20px;
+  align-items: baseline;
+  padding-bottom: 100px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #0065FC;
+}
+
+li{
+  list-style: none;
+}
+
+.nav li {
+  font-size: 17px;
+  font-weight: 400;
+  padding:  30px;
+  border-top: 4px solid transparent;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.nav li:hover {
+  border-top: 4px solid #0065FC;
+}
+
+/* <-- section Seach form --> */
+
+.h1 {
+  height: auto;
+}
+
+.sub-title {
+  font-weight: bold;
+  color: #e7e2e2;;
+}
+
+/* <--  DRY a principle of software development --> */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* <--  DRY  --> */
+
+.search-form {
+  width: 400px;
+  padding: 20px 0 20px 0 ;
+  border: none; 
+  margin-top: 8px;
+  color: #e7e2e2;
+}
+
+.search-form__icon {
+  border: 1px solid transparent;
+  border-radius: 10px 0 0 10px;
+  height: 50px;
+  width: 60px;
+  background-color: #e7e2e2;
+}
+
+.search-form__input {
+  height:50px;
+  width: 250px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: black;
+  border: 0.5px solid #f2f2f2;
+}
+
+.search-form__btn {
+  border: 1px solid transparent; 
+  border-radius: 0 10px 10px 0;
+  height: 50px;
+  width: 150px;
+  font-weight:bold ;
+  color: white;
+  background-color:#0065FC;
+}
+
+/* <--  Filtres --> */
+
+.filter-cont {
+  margin-left: 0px;
+  margin-top: 5px;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ 
+.filter-title {
+  margin-right: 20px;
+}
+
+.filter-btn {
+  margin-right: 20px;
+}
+
+.filter-icons {
+  border-radius: 50%;
+  color: #0065FC;
+  width: 45px;
+  height: 50px;
+  background-color: #DEEBFF;
+  position:absolute;
+}
+
+.filter-text {
+  height: 50px;
+  width: 280px;
+  border: 0.5px solid #f2f2f2;
+  border-radius: 25px 25px 25px 25px;
+} 
+
+.sub-info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.filter-icons-small {
+  border-radius: 50%;
+  color: #0065FC;
+  width: 20px;
+  height: 20px;
+  background-color: #DEEBFF;
+  position:absolute;
+  border: 0.5px solid #f2f2f2;
+}
+
+.sub-info p {
+  margin-left: 30px;
+  color:#e7e2e2;
+  font-size: 16px;
+  font-weight:bold;
+}

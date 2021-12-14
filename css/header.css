@@ -19,12 +19,12 @@
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: #0065FC;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -41,26 +41,78 @@ li{
   border-top: 4px solid #0065FC;
 }
 
-/* <-- section Seach form --> */
+/* <-- Responsive header mediascreen 576px --> */
+@media screen and (max-width: 576px) {
+  
+  /* <-- Resultat ok mais peut mieux faire --> */
 
-.h1 {
-  height: auto;
+  #logo {
+    display: flex;
+    justify-content: center;
+    padding-left: 115px;
+    height: 80px;
+  }
+
+  .nav ul {
+    margin-left: -360px;
+    margin-top: 90px;
+  }
+  /* <---------------------------------------> */
+  
+  .nav li:hover {
+    border-bottom: 2px solid #0065FC;
+    border-top:none ;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-left: 15px;
+  }
+  
+  .sub-title {
+    margin-left: 15px;
+    color: black !important;
+    font-weight:normal !important;
+  }
+  
+  #research {
+    /* display: none; */
+    border: 1px solid transparent;
+    border-radius: 10px 10px 10px 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #0065FC;
+    margin-left: -8px;   
+  }
+
+  .search-form__input {
+    height:50px;
+    width: 250px !important;
+  }  
+  
+  .search-form__icon { 
+    margin-left: 9px;
+    height: 50px !important;
+    width: 50px !important;
+  }
 }
+
+
+
+/* <-- section Seach form --> */
 
 .sub-title {
   font-weight: bold;
-  color: #e7e2e2;;
+  color: #e7e2e2;
 }
 
-/* <--  DRY a principle of software development --> */
+/* <--  DRY principe --> */
 
 .flex-center {
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
 }
-
-/* <--  DRY  --> */
 
 .search-form {
   width: 400px;
@@ -68,6 +120,8 @@ li{
   border: none; 
   margin-top: 8px;
   color: #e7e2e2;
+  display: flex; 
+  align-items: center;
 }
 
 .search-form__icon {
@@ -100,7 +154,6 @@ li{
 /* <--  Filtres --> */
 
 .filter-cont {
-  margin-left: 0px;
   margin-top: 5px;
   display:flex;
   align-items: center;
@@ -109,6 +162,9 @@ li{
  
 .filter-title {
   margin-right: 20px;
+  margin-bottom: 20px;
+
+  /* display: flex; */
 }
 
 .filter-btn {
@@ -122,6 +178,7 @@ li{
   height: 50px;
   background-color: #DEEBFF;
   position:absolute;
+  margin-left: 30px;
 }
 
 .filter-text {
@@ -129,6 +186,7 @@ li{
   width: 280px;
   border: 0.5px solid #f2f2f2;
   border-radius: 25px 25px 25px 25px;
+  margin-left: 30px;
 } 
 
 .sub-info {
@@ -141,7 +199,7 @@ li{
   color: #0065FC;
   width: 20px;
   height: 20px;
-  background-color: #DEEBFF;
+  background-color: #f2f2f2;
   position:absolute;
   border: 0.5px solid #f2f2f2;
 }

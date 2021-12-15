@@ -5,7 +5,6 @@
   display: flex;
   justify-content: flex-start;
   justify-items: center;
-  margin-top: 10px ;
 }
 
 #hebergement a {
@@ -65,7 +64,6 @@
   width: 100%;
   height: 150px;
   object-fit: cover;
-  object-position: center;
 }
 
 .heb-description {
@@ -73,15 +71,15 @@
   padding-bottom: 10px;
 }
 
+.heb-description h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .heb-description p {
   font-size: 12px;
   margin-top: 8px;
   margin-bottom: 6px;
-}
-
-.heb-description h2 {
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .star {

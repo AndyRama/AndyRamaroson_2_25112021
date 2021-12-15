@@ -33,14 +33,25 @@
       <h1 class="title">Trouver votre hébergement pour des vacances de rêve.</h1>
       <p class="sub-title">En plein centre ville ou en plein nature.</p>
       <!-- search form -->
-      <form class="search-form">
-        <div class="search-form__icon flex-center"><i class="fas fa-map-marker-alt "></i></div>
-        <input class="search-form__input" name="search" label ="recherche" type="text" placeholder="Marseille, France">
-        <button  class="search-form__btn" type="submit" value="Rechercher"id="search-text">Rechercher</button>
+      <form id="search-bar">
+        <div class="map-img">
+          <span id="map-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </span>
+        </div>
+        <div id="map-input">
+         <input type="search" id="search-input" placeholder="Marseille, France"/>
+        </div>
+        <div id="map-btn">
+          <button id="map-marker">
+            <span id="search-text">Rechercher</span>
+            <span id="search-icon"><i class="fas fa-search"></i></span>
+          </button>
+        </div>
       </form>
       <!-- filter -->
       <div class="filter-cont">
-        <h3 class="filter-title">Filtres</h3>
+      <h3 class="filter-title">Filtres</h3>
         <div class="filter-btn">
           <div class="filter-icons flex-center"><i class="fas fa-money-bill-wave"></i></div>
           <h3 class="filter-text flex-center">Economique</h3>

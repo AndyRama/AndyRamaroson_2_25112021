@@ -1,7 +1,31 @@
-.footer-container {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+.ment-container {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  margin-top:30px;
+  padding-bottom: 30px;
+}
+
+.mentions {
+  width: 30%;
+  line-height: 32px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 576px) {
+
+  .ment-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mentions {
+  width: 80%;
+
+  }
+
+  
 }
 

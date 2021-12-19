@@ -27,6 +27,8 @@
   font-weight: bold;
   font-size: 20px ;
   margin-top: 20px;
+  padding-left: 20px;
+  width: 100%;
 }
 
 .heb-link {
@@ -37,10 +39,10 @@
   background-color: #f2f2f2;
   padding-left: 20px;
   border: none;
+  width: 100%;
 
 }
 
-.heb-div,
 .heb-card {
   width: 30%;
   background-color: white;
@@ -49,14 +51,6 @@
   margin-bottom: 15px;
   border: 3px solid white;  
 } 
-
-.heb-div:nth-child(1),
-.heb-div:nth-child(8) {
-  width: 100%;
-  background-color: #f2f2f2;
-  padding-left: 20px;
-  border: none;
-}
 
 .heb-card img {
   border-radius: 20px 20px 0 0;

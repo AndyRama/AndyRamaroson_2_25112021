@@ -5,9 +5,13 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  padding-left: 3%;
 }
 
+.container,
+.heb-container,
+.pop-container {
+  margin-left: 3%;
+}
 
 /* <-- Section activités --> */
 

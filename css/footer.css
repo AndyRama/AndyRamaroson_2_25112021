@@ -5,13 +5,17 @@
   align-items: center;
   background-color: #f2f2f2;
   margin-top:30px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  height: 500px;
 }
 
 .mentions {
   width: 30%;
   line-height: 32px;
-  margin-top: 25px;
+}
+
+.mentions h3 {
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -22,7 +26,7 @@
   }
 
   .mentions {
-  width: 80%;
+    width: 80%;
 
   }
 

@@ -6,7 +6,7 @@
   background-color: #f2f2f2;
   margin-top:30px;
   padding-bottom: 25px;
-  height: 500px;
+  height: max-content;
 }
 
 .mentions {
@@ -23,6 +23,7 @@
   .ment-container {
     display: flex;
     flex-direction: column;
+    height: 500px;
   }
 
   .mentions {

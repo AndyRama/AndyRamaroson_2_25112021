@@ -3,6 +3,7 @@
   display: flex; 
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /*<-- header navbar-->*/
@@ -11,6 +12,13 @@
   display: flex;
   justify-content: space-between;
   padding-top: -10px;
+}
+
+.nav-logo img {
+  height: 50px;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .nav ul {
@@ -23,6 +31,10 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.nav li a:hover {
   color: #0065FC;
 }
 
@@ -56,7 +68,7 @@ a {
   align-items: center;
   width: 100%;
   height: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 #search-input {
@@ -91,8 +103,7 @@ a {
   height: 50px;
   max-width: 50px;
   background-color: #f2f2f2;
-  border-radius: 15px 0 0 15px;
-  
+  border-radius: 15px 0 0 15px;  
 }
 
 #map-icon i {
@@ -113,50 +124,61 @@ a {
 
 /* <--  Filtres --> */
 
-.filter-cont {
-  margin-top: 10px;
-  display:flex;
-  align-items: center;
+#filter-cont {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
- 
+
 .filter-title {
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: -12px;
+}
+  
+.filter a {
+  text-decoration: none;
+  color: black;
+  padding-top: 9px;
 }
 
-.filter-btn {
-  margin-right: 10px;
+.filter a:hover {
+  color: #0065fc;
 }
 
-.filter-icons {
+.filter {
+  margin-right: 15px;
+  padding: 12px 22px 10px 0;
+  border: 3px solid #f2f2f2;
+  border-radius: 30px 30px 30px 30px;
+  margin-bottom: 15px;
+}
+
+.filter:hover {
+  background-color: #deebff;
+}
+
+.filter-icon {
+  background-color: #deebff;
   border-radius: 50%;
-  color: #0065FC;
-  width: 50px;
-  height: 50px;
-  background-color: #DEEBFF;
-  position:absolute;
-  margin-left: 30px;
+  padding: 15px 15px 12px 7px;
+  color: #0065fc;
+  margin-right: 5px;
 }
 
-.filter-icons:hover {
-  color:black ;
+.filter-icon i {
+  margin-left: 6px;
 }
-
-.filter-text {
-  height: 50px;
-  border: 0.5px solid #f2f2f2;
-  border-radius: 25px 25px 25px 25px;
-  margin-left: 30px;
-}
-
-.filter-text:hover{
-  background-color: #DEEBFF;
+  
+.filter-btn {
+  font-weight: bold;
 }
 
 .sub-info {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 30px;
 }
 
@@ -190,13 +212,13 @@ a {
   }
   .nav img {
     margin-left: 150px;
-    width: 100px;
-    height: 50px;
     margin-top: 25px;
+    width: 80px;
+    height: 50px;
   }
 
   .nav ul {
-    margin-left: -360px; 
+    margin-left: -360px;
     margin-top: 70px;
   } 
 
@@ -204,40 +226,37 @@ a {
   
   .nav li {
     font-size: 17px;
-    font-weight: bold;
     padding: 30px;
     width: 50%;
     margin-right: 20px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 4px solid transparent;
     border-top: none;
+    padding-bottom: 10px;
   }
 
   .nav li:hover {
-    border-bottom: 2px solid #0065FC;
+    border-bottom: 4px solid #0065FC;
     border-top: none;
   }
 
   .title {
     font-size: 23px;
     margin-left: 10px;
+    padding-top: 15px;
   }
   
   .sub-title {
     margin-left: 10px;
-    color: black !important;
-    font-weight:normal !important;
+    color: black;
+    font-weight:normal;
   }
 
   /* barre de recherche mediascreen 576px */
 
   #search-bar {
-    margin-left: 10px;
+    margin-left: 12px;
     padding-top: 14px;
-    margin-bottom: 28px;
-  }
-
-  #search-input {
-    max-width: 350px;
+    margin-bottom: 45px;
   }
 
   #map-marker {
@@ -259,6 +278,24 @@ a {
   #search-text {
     display: none;
   }
+
+  /* filtres mediascreen 576px */
+
+  .filter:hover {
+    border: 3px solid #deebff;
+  }
+  .filter-title{
+    width: 100%;
+    margin-left: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .sub-info p {
+    color:black;
+    font-size: 16px;
+    font-weight:lighter;
+  }
+
 }
 
 

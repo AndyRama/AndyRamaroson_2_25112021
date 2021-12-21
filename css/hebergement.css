@@ -17,15 +17,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 60%;
-  margin-right: auto;
   border-radius: 20px;
   background-color: #f2f2f2;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .heb-title {
   font-weight: bold;
-  font-size: 20px ;
+  font-size: 22px ;
   margin-top: 20px;
   padding-left: 20px;
   width: 100%;
@@ -40,21 +39,19 @@
   padding-left: 20px;
   border: none;
   width: 100%;
-
 }
 
 .heb-card {
   width: 30%;
   background-color: white;
   border-radius: 20px;
-  margin: auto;
-  margin-bottom: 15px;
-  border: 3px solid white;  
+  margin-bottom: 10px;
+  border: 3px solid white;
+  box-shadow: 0 0 22px #f2f2f2;  
 } 
 
 .heb-card img {
   border-radius: 20px 20px 0 0;
-  justify-content: center;
   width: 100%;
   height: 150px;
   object-fit: cover;
@@ -68,20 +65,23 @@
 .heb-description h2 {
   font-size: 16px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .heb-description p {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 8px;
   margin-bottom: 6px;
 }
 
 .star {
   color: #0065fc;
+  font-size: 12px;
 }
 
 .no-star {
   color: #f2f2f2;
+  font-size: 12px;
 }
 
 /* <-- Section hebergement populaire --> */
@@ -95,34 +95,35 @@
   background-color: #f2f2f2;
   justify-content: center;
   margin-right: 50px;
+  padding-bottom: 40px;
 }
 
-.pop-div,
-.pop-card {
-  width: 80%;
+.pop-div {
   background-color: white;
   border-radius: 20px;
-  margin: auto;
-  margin-bottom: 20px;
-  border:3px solid white;
+  margin: 20px 20px 20px 20px;
+  border: 5px solid white;
+  margin-bottom: -10px;
 }
 
 .pop-div:nth-child(1) {
   border: none;
   background-color: #f2f2f2;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .pop-title {
-  font-weight: bold;
-  font-size: 20px ;
-  margin-top: 20px;
+  font-weight: 700;
+  font-size: 22px ;
+  margin-top: 25px;
+  margin-bottom: 16px !important;
+margin-left: 0;
 }
 
 .pop-title i{
   display: flex;
   justify-content: flex-end;
-  margin-top: -30px;
+  margin-top: -25px;
 }
 
 .pop-img img {
@@ -133,17 +134,17 @@
   object-fit: cover;
   object-position: center;
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .pop-description {
-  padding-top: 20px;
+  padding-top: 12px;
 }
 
 .pop-description p {
   font-size: 12px;
-  margin-top: 14px;
-  margin-bottom: 30px;
+  margin-top: 8px;
+  margin-bottom: 40px;
 }
 
 .pop-description h2 {
@@ -157,7 +158,56 @@
     flex-direction: column;
     margin: 0;
   }
+
+  .heb-container {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+  }
+
+  .heb-card {
+    width: 90%;
+    border: 4px solid white;
+    margin-top: 20px;
+  }
+  
+  .heb-card img {
+    height: 110px;
+
+  }
+  .heb-title {
+    margin-top: 40px;
+  }
+  
+  .heb-link {
+    background-color: white;
+  }
+
   aside {
     order: -1;
   }
+
+  .pop-container {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;  
+  }
+  
+  .pop-div {
+    width:  85%;
+  }
+
+  .pop-div:nth-child(1) {
+    margin-top: 15px;
+  }
+  
+  .pop-img img {
+    height: 135px;
+  }
+
+  .pop-title {
+    margin-bottom: -10px;
+  }
+
 }

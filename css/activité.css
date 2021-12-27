@@ -1,0 +1,102 @@
+/* activités */
+.act-title {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.act-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  height: 450px;
+  width: 96%;
+  margin: 0;
+  /* background-color: red; */
+}
+
+.act-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.act-container img {
+  border-radius: 20px 20px 0 0;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(1.05);
+  display: flex;
+}
+
+.act-subtitle  {
+  color: black;
+  margin-top: 10px; 
+  margin-left: 15px;
+  display: flex; 
+  justify-content: start;
+  align-items: center;
+  /* background-color: blue; */
+  /* height: 40px; */
+  font-size: small;
+}
+
+.act-div {
+  border-radius: 20px;
+  box-sizing: content-box;
+  box-shadow: 0 0 16px #f2f2f2;
+  height: 95%;
+  width: 23%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.act-div:nth-child(2) {
+  height: 200px;
+  /* margin-bottom: 5px; */
+}
+
+.act-div:nth-child(3) {
+  height: 140px;
+  margin-top: 80px;
+  
+}
+
+.act-div:nth-child(5) {
+  height: 200px;
+}
+
+.act-div:nth-child(6) {
+  height: 200px;
+}
+
+/* activités mediascreen 576px @media screen and (max-width: 576px*/
+@media screen and (max-width: 576px) {
+  .act-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  
+  .act-div {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .act-title {
+    margin-left: 20px;
+  }
+  
+  .sub-title {
+    padding-left: 10px;
+  }
+}

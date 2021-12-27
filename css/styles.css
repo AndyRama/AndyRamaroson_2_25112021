@@ -7,10 +7,10 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
-.container,
-.heb-container,
-.pop-container {
-  margin-left: 3%;
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: auto;
 }
 
 /* <-- Section activités --> */

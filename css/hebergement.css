@@ -17,9 +17,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 60%;
-  border-radius: 20px;
+  border-radius: 20px 20px 20px 20px;
   background-color: #f2f2f2;
   justify-content: space-around;
+  margin-right: 20px;
 }
 
 .heb-title {
@@ -153,6 +154,7 @@ margin-left: 0;
 } 
 
 @media screen and (max-width: 576px) {
+.container
   #hebergement {
     display: flex;
     flex-direction: column;
@@ -164,6 +166,7 @@ margin-left: 0;
     width: 100%;
     display: flex;
     flex-direction:column ;
+    border-radius:0 ;
   }
 
   .heb-card {

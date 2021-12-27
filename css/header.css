@@ -16,7 +16,7 @@
 
 .nav-logo img {
   height: 50px;
-  width: 80px;
+  width: 100px;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -52,6 +52,7 @@ a {
 }
 
 /* <-- section Seach form --> */
+
 .title {
   font-size: 20px;
 }
@@ -83,8 +84,7 @@ a {
 }
 
 #search-input::placeholder {
-  /* color:black !important; */
-  color:red !important; 
+  color:#000 ;
 }
 
 #search-text {
@@ -150,7 +150,7 @@ a {
 }
 
 .filter {
-  margin-right: 15px;
+  margin-right: 8px;
   padding: 12px 22px 10px 0;
   border: 3px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
@@ -159,6 +159,7 @@ a {
 
 .filter:hover {
   background-color: #deebff;
+   border: 3px solid #deebff;
 }
 
 .filter-icon {
@@ -171,6 +172,7 @@ a {
 
 .filter-icon i {
   margin-left: 6px;
+
 }
   
 .filter-btn {
@@ -206,18 +208,20 @@ a {
   
   /* <-- Responsive header mediascreen 576px --> */
   /* <-- Resultat ok mais peut mieux faire --> */
-  .container {
-    margin-left: 10px;
-    
-  }
+
   .nav img {
     margin-left: 150px;
     margin-top: 25px;
-    width: 80px;
+    width: 100px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .nav ul {
+
     margin-left: -360px;
     margin-top: 70px;
   } 
@@ -225,10 +229,11 @@ a {
   /* <---------------------------------------> */
   
   .nav li {
+    flex-wrap: wrap;
     font-size: 17px;
     padding: 30px;
     width: 50%;
-    margin-right: 20px;
+    margin-right: 5px;
     border-bottom: 4px solid transparent;
     border-top: none;
     padding-bottom: 10px;

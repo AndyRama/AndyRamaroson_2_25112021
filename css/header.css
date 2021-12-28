@@ -152,7 +152,7 @@ a {
 
 .filter {
   margin-right: 20px;
-  padding: 14px 40px 10px 0;
+  padding: 14px 8px 10px 0;
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
   margin-bottom: 15px;
@@ -211,9 +211,8 @@ a {
 @media screen and (max-width: 576px) {
   
   /* <-- Responsive header mediascreen 576px --> */
-  /* <-- Resultat ok mais peut mieux faire --> */
 
-  .nav img {
+  .nav-logo img {
     margin-left: 150px;
     margin-top: 25px;
     width: 100px;
@@ -221,19 +220,15 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:  center;
   }
 
   .nav ul {
-
-    margin-left: -360px;
+    margin-left: -340px;
     margin-top: 70px;
-  } 
-
-  /* <---------------------------------------> */
+  }
   
   .nav li {
-    flex-wrap: wrap;
     font-size: 17px;
     padding: 30px;
     width: 50%;

@@ -1,4 +1,4 @@
-/* activités */
+/* section activité */
 .act-title {
   margin-top: 30px;
   margin-left: 10px;
@@ -14,7 +14,7 @@
   width: 96%;
   margin: 0;
   padding-bottom: 20px;
-  /* background-color: red; */
+  background-color: red;
 }
 
 .act-container a {
@@ -77,6 +77,7 @@
 
 /* activités mediascreen 576px @media screen and (max-width: 576px*/
 @media screen and (max-width: 576px) {
+
   .act-container {
     display: flex;
     margin: auto;

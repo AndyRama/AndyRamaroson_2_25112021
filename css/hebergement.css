@@ -20,13 +20,15 @@
   border-radius: 20px 20px 20px 20px;
   background-color: #f2f2f2;
   justify-content: space-around;
-  margin-right: 20px;
+  margin-right: 25px;
+  /* margin-bottom: 20px; */
+  padding: 0px  10px 0px 10px;
 }
 
 .heb-title {
   font-weight: bold;
   font-size: 22px ;
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
   padding-left: 20px;
   width: 100%;
 }
@@ -104,9 +106,8 @@
 .pop-div {
   background-color: white;
   border-radius: 20px;
-  margin: 20px 20px 20px 20px;
+  margin: 10px 15px 15px 10px;
   border: 4px solid white;
-  margin-bottom: -10px;
 }
 
 .pop-div:nth-child(1) {
@@ -119,7 +120,7 @@
   font-weight: 700;
   font-size: 22px ;
   margin-top: 25px;
-  margin-bottom: 16px !important;
+  /* margin-bottom: 16px !important; */
   margin-left: 0;
 }
 

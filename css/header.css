@@ -211,22 +211,24 @@ a {
 @media screen and (max-width: 576px) {
   
   /* <-- Responsive header mediascreen 576px --> */
+  .nav {
+    flex-direction: column;
+    margin-left:  -20px;
+    width:calc(100vw + 20px);
+  }
 
   .nav-logo img {
-    margin-left: 150px;
+    margin:auto;
     margin-top: 25px;
     width: 100px;
     height: 50px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content:  center;
+    display: block;
+   
   }
 
-  .nav ul {
-    margin-left: -340px;
-    margin-top: 70px;
-  }
+  /* .nav ul {
+    
+  } */
   
   .nav li {
     font-size: 17px;
@@ -236,6 +238,7 @@ a {
     border-bottom: 4px solid transparent;
     border-top: none;
     padding-bottom: 10px;
+    text-align: center;
   }
 
   .nav li:hover {

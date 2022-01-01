@@ -83,7 +83,6 @@
           </div>
       </header>
     
-
       <!-- sub-information -->
       <div class="sub-info">
         <div class="filter-icons-small flex-center">
@@ -217,11 +216,13 @@
                 <div class="pop-description">
                   <h2>Hôtel Le soleil du matin</h2>
                   <p>Nuit à partir de <strong>128€</strong></p>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
+                  <div class="pop-content-star">
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                  </div>
                 </div>
               </a>
             </div>  
@@ -233,11 +234,13 @@
                 <div class="pop-description">
                   <h2>Au coeur de l'eau Chambres d'hôtes</h2>
                   <p>Nuit à partir de <strong>71€</strong></p>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="no-star"><i class="fas fa-star"></i></span>
+                  <div class="pop-content-star">
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="no-star"><i class="fas fa-star"></i></span>
+                  </div>
                 </div>
               </a>
             </div> 
@@ -249,11 +252,13 @@
                 <div class="pop-description">
                   <h2>Hôtel Tout bleu et Blanc</h2>
                   <p>Nuit à partir de <strong>68€</strong></p>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="star"><i class="fas fa-star"></i></span>
-                  <span class="no-star"><i class="fas fa-star"></i></span>
+                  <div class="pop-content-star">
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i></span>
+                    <span class="no-star"><i class="fas fa-star"></i></span>
+                  </div>
                 </div>
               </a>
             </div> 
@@ -263,53 +268,39 @@
         <!-- section activités à Marseille -->
         <h2 id="activity" class="act-title">Activités à Marseille</h2>
         <section class="act-container">
-          <div class="act-div">
-            <a href="#">
-              <picture><img src="images/activites/4_small/Vieux port.jpg" alt="Vieux Port"></picture>
-              <div class="act-subtitle">
+          <div class="activity-list">
+            <div class="column">
+              <picture>
+                <img src="images/activites/4_small/Vieux port.jpg">
                 <h3>Vieux Port</h3>
-              </div>
-            </a>
-          </div>
-          <div class="act-div">
-            <a href="#">
-              <picture><img src="images/activites/4_small/Fort de Pomègue.jpg" alt="Fort de Pomègue"></picture>
-              <div class="act-subtitle">
-                <h3>Fort de Pomègue</h3>
-              </div>
-            </a>
-          </div>
-          <div class="act-div">
-            <a href="#">
-              <picture><img src="images/activites/4_small/îles du Frioul.jpg" alt="îles du Frioul"></picture>
-              <div class="act-subtitle">
-                <h3>îles du Frioul</h3>
-              </div>
-            </a>
-          </div>
-          <div class="act-div">
-            <a href="#">
-              <picture><img src="images/activites/4_small/Parc National des calanques.jpg" alt="Parc National des calanques"></picture>
-              <div class="act-subtitle">
-                <h3>Parc National des Calanques</h3>
-              </div>
-            </a>
-          </div>
-          <div class="act-div">
-            <a href="#">
-              <picture><img src="images/activites/4_small/Notre Dame de la Garde.jpg" alt="Notre Dame de la Garde"></picture>
-              <div class="act-subtitle">
+              </picture>
+            </div>
+            <div class="column double">
+              <picture id="medium-picture">
+                <img src="images/activites/4_small/Fort de Pomègue.jpg">
+                <h3>Fort de Pomègues</h3>
+              </picture>
+              <picture id="small-picture">
+                <img src="images/activites/4_small/îles du Frioul.jpg">
+                <h3>Îles du Frioul</h3>
+              </picture>
+            </div>
+            <div class="column">
+                <picture>
+                    <img src="images/activites/4_small/Parc National des calanques.jpg">
+                    <h3>Parc National des Calanques</h3>
+                </picture>
+            </div>
+            <div class="column double">
+              <picture>
+                <img src="images/activites/4_small/Notre Dame de la Garde.jpg">
                 <h3>Notre-Dame-de-la-Garde</h3>
-              </div>
-            </a>
-          </div>
-          <div class="act-div">
-            <a href="#">
-              <picture><img src="images/activites/4_small/Parc Longchamp.jpg" alt="Parc Longchamp"></picture>
-              <div class="act-subtitle">
-                <h3>Parc Longchamp</h3>
-              </div>
-            </a>
+              </picture>
+              <picture>
+                <img src="images/activites/4_small/Parc Longchamp.jpg">
+                <h3>Parc LongChamp</h3>
+              </picture>
+            </div>
           </div>
         </section>
       </main>
@@ -318,22 +309,24 @@
     <!-- footer -->
     <footer>
       <section class="ment-container">
-        <ul class="mentions">
-          <li><h3 class="footer-title">A propos</h3></li>
-          <li>Fontionnement du site</li>
-          <li>Conditions générales de ventes</li>
-          <li>Données et confidentialité</li>
-        </ul>
-        <ul class="mentions">
-          <li><h3 class="footer-title">Nos herbergements</h3></li>
-          <li>Charte qualité</li>
-          <li>Soumettre votre Hôtel</li>
-        </ul>
-        <ul class="mentions">
-          <li><h3 class="footer-title">Assistance</h3></li>
-          <li>Centre d'aide</li>
-          <li>Nous contacter</li>
-        </ul>
+        <div class="container-footer">
+          <ul class="mentions">
+            <li><h3 class="footer-title">A propos</h3></li>
+            <li>Fontionnement du site</li>
+            <li>Conditions générales de ventes</li>
+            <li>Données et confidentialité</li>
+          </ul>
+          <ul class="mentions">
+            <li><h3 class="footer-title">Nos herbergements</h3></li>
+            <li>Charte qualité</li>
+            <li>Soumettre votre Hôtel</li>
+          </ul>
+          <ul class="mentions">
+            <li><h3 class="footer-title">Assistance</h3></li>
+            <li>Centre d'aide</li>
+            <li>Nous contacter</li>
+          </ul>
+        </div>    
       </section>
     </footer>
   </body>

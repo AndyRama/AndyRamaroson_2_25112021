@@ -17,30 +17,26 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 60%;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px ;
   background-color: #f2f2f2;
   justify-content: space-around;
   margin-right: 25px;
-  /* margin-bottom: 20px; */
-  padding: 0px  10px 0px 10px;
+  padding: 10px 20px 50px 20px;
 }
 
 .heb-title {
   font-weight: bold;
   font-size: 22px ;
-  margin: 20px 0 10px 0;
-  padding-left: 20px;
+  margin-top: 28px;
+  padding: 0 0 20px 20px;
   width: 100%;
 }
 
 .heb-link {
   font-weight: bold;
   font-size: 18px ;
-  margin-top: 10px;
-  margin-bottom:10px;
-  width: 200px;
+  padding: 25px 0 0 15px;
   background-color: #f2f2f2;
-  padding-left: 40px;
   border: none;
   width: 100%;
   border-radius: 0 0 20px 20px;
@@ -48,6 +44,7 @@
 
 .heb-card {
   width: 30%;
+  height: 200px;
   background-color: white;
   border-radius: 20px;
   margin-bottom: 10px;
@@ -58,7 +55,7 @@
 .heb-card img {
   border-radius: 20px 20px 0 0;
   width: 100%;
-  height: 150px;
+  height: 120px;
   object-fit: cover;
 }
 
@@ -75,7 +72,7 @@
 
 .heb-description p {
   font-size: 14px;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 6px;
 }
 
@@ -95,18 +92,16 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 35%;
+  width: 30%;
   border-radius: 20px;
   background-color: #f2f2f2;
   justify-content: center;
-  margin-right: 50px;
-  padding-bottom: 40px;
 }
 
 .pop-div {
   background-color: white;
   border-radius: 20px;
-  margin: 10px 15px 15px 10px;
+  margin: 10px 20px 10px 20px;
   border: 4px solid white;
 }
 
@@ -118,10 +113,10 @@
 
 .pop-title {
   font-weight: 700;
-  font-size: 22px ;
-  margin-top: 25px;
-  /* margin-bottom: 16px !important; */
-  margin-left: 0;
+  font-size: 22px;
+  margin-top: 35px;
+  margin-left: 5px;
+  margin-right: 10px;
 }
 
 .pop-title i{
@@ -132,24 +127,31 @@
 
 .pop-img img {
   border-radius: 20px 0 0 20px ;
-  justify-content: flex-start;
-  width: 42%;
+  width: 40%;
   height: 150px;
+  padding-right: 15px;
   object-fit: cover;
-  object-position: center;
   float: left;
-  padding-right: 18px;
 }
 
 .pop-description {
-  padding-top: 12px;
+  height: 150px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .pop-description p {
-  margin-left: 15px;
   font-size: 12px;
-  margin-top: 8px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.pop-content-star{
+  display:flex;
+  align-content: flex-end;
+  position: sticky;
+  justify-content: flex-start;
 }
 
 .pop-description h2 {
@@ -171,6 +173,7 @@
     display: flex;
     flex-direction:column ;
     border-radius:0 ;
+    margin-left: -10px;
   }
 
   .heb-card {
@@ -197,13 +200,15 @@
     order: -1;
   }
 
-  
   .pop-container {
-    width: 100%;
+    width: 113%;
     border-radius: 0;
-    margin-left: 0 !important;  
+    margin-left: -20px;  
   }
   
+ .pop-description {
+    height: 135px;
+  }
   .pop-div {
     width:  85%;
   }
@@ -217,7 +222,7 @@
   }
 
   .pop-title {
-    margin-bottom: -10px;
+    margin-bottom: 10px;
   }
 
 }

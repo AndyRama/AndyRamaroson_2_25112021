@@ -178,6 +178,9 @@ a {
   
 .filter-btn {
   font-weight: bold;
+  margin-right: 30px;
+  margin-left: 15px;
+  background-color: red;
 }
 
 .sub-info {
@@ -214,7 +217,7 @@ a {
   .nav {
     flex-direction: column;
     margin-left:  -20px;
-    width:calc(100vw + 20px);
+    width: calc(100vw + 20px);
   }
 
   .nav-logo img {
@@ -287,10 +290,16 @@ a {
   }
 
   /* filtres mediascreen 576px */
+  
+  .filter-btn {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .filter:hover {
     border: 3px solid #deebff;
   }
+
   .filter-title{
     width: 100%;
     margin-left: 12px;

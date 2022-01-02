@@ -28,7 +28,7 @@
   font-weight: bold;
   font-size: 22px ;
   margin-top: 28px;
-  padding: 0 0 20px 20px;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -44,12 +44,12 @@
 
 .heb-card {
   width: 30%;
-  height: 200px;
+  height: 190px;
   background-color: white;
   border-radius: 20px;
   margin-bottom: 10px;
   border: 3px solid white;
-  box-shadow: 0 0 22px #f2f2f2;  
+  box-shadow: 0px 0px 10px 0px #E0E0E0;
 } 
 
 .heb-card img {
@@ -136,7 +136,6 @@
 
 .pop-description {
   height: 150px;
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -149,9 +148,9 @@
 
 .pop-content-star{
   display:flex;
+  justify-content: flex-start;
   align-content: flex-end;
   position: sticky;
-  justify-content: flex-start;
 }
 
 .pop-description h2 {
@@ -187,13 +186,12 @@
 
   }
   .heb-title {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   
   .heb-link {
     background-color: white;
-    padding-left:0;
-    
+    padding-left:0;    
   }
 
   aside {
@@ -204,6 +202,7 @@
     width: 113%;
     border-radius: 0;
     margin-left: -20px;  
+    padding-bottom: 15px;
   }
   
  .pop-description {
@@ -211,10 +210,6 @@
   }
   .pop-div {
     width:  85%;
-  }
-
-  .pop-div:nth-child(1) {
-    margin-top: 15px;
   }
   
   .pop-img img {

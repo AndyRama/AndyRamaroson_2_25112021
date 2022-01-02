@@ -1,3 +1,6 @@
+#activity {
+  margin-bottom: 20px;
+}
 
 .act-title {
   margin-top: 50px;
@@ -9,10 +12,6 @@
   width: 96%;
   margin: 0;
   padding-bottom: 30px;
-}
-
-#activity {
-  margin-bottom: 20px;
 }
 
 .activity-list {
@@ -29,35 +28,35 @@
   border-radius: 25px;
 }
 
-.activity-list .column picture img {
+.activity-list .column  a picture img {
   width: 100%;
   height: calc(100% - 67px);
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
 }
 
-.activity-list .column picture {
+.activity-list .column a {
   height: 100%;
   box-shadow: 0px 0px 10px 0px #E0E0E0;
   border-radius: 25px;
 }
 
-.activity-list .column picture h3 {
+.activity-list .column a h3 {
   font-size: 16px;
   padding: 8px;
   margin-top: 10px;
   margin-left: 12px;
 }
 
-.activity-list .column.double picture {
+.activity-list .column.double a  {
   height: 45%;
 }
 
-#small-picture{
+.small-picture {
   height: 35%;
 }
 
-#medium-picture{
+.medium-picture {
   height: 55%;
 }
 
@@ -75,8 +74,8 @@
     justify-content: center;
   }
 
-  .activity-list .column,
-  .activity-list .column.double {
+  .activity-list .column a,
+  .activity-list .column.double a {
     width: 96%;
   }
   

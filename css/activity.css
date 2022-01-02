@@ -52,11 +52,11 @@
   height: 45%;
 }
 
-.small-picture {
+.small-picture a {
   height: 35%;
 }
 
-.medium-picture {
+.medium-picture a {
   height: 55%;
 }
 
@@ -66,7 +66,7 @@
    margin-top:0;
   }
   
-  .activity-list{
+  .activity-list {
     display: flex;
     flex-direction: column;
     height: max-content;
@@ -74,21 +74,21 @@
     justify-content: center;
   }
 
-  .activity-list .column a,
-  .activity-list .column.double a {
+  .activity-list .column,
+  .activity-list .column.double  {
     width: 96%;
   }
   
-  #medium-picture,
-  #small-picture {
+  .medium-picture a,
+  .small-picture a {
     height: 200px;
     width: 96%;
     margin-bottom: 25px;
     margin-left: 10px;
   }
 
-  .activity-list .column picture,
-  .activity-list .column.double picture {
+  .activity-list .column a ,
+  .activity-list .column.double a  {
     height: 200px;
     margin-bottom: 25px;
     margin-left: 10px;

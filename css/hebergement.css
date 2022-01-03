@@ -1,11 +1,10 @@
- /* css valid */
+ /* css valid W3C */
 
 /* <-- Section hebergement --> */
 
 #hebergement {
   display: flex;
   justify-content: flex-start;
-  justify-items: center;
 }
 
 #hebergement a {
@@ -17,18 +16,18 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 60%;
+  width: 70%;
   border-radius: 20px ;
   background-color: #f2f2f2;
   justify-content: space-around;
-  margin-right: 25px;
+  margin-right: 20px;
   padding: 10px 20px 50px 20px;
 }
 
 .heb-title {
   font-weight: bold;
   font-size: 22px ;
-  margin-top: 28px;
+  margin: 28px 0 0 10px;
   padding-bottom: 20px;
   width: 100%;
 }
@@ -45,10 +44,10 @@
 
 .heb-card {
   width: 30%;
-  height: 200px;
+  height: 220px;
   background-color: white;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: 3px solid white;
   box-shadow: 0px 0px 10px 0px #E0E0E0;
 } 
@@ -61,12 +60,12 @@
 }
 
 .heb-description {
-  padding-left: 10px;
+  padding-left: 8px;
   padding-bottom: 10px;
 }
 
 .heb-description h2 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -102,7 +101,7 @@
 .pop-div {
   background-color: white;
   border-radius: 20px;
-  margin: 10px 20px 10px 20px;
+  margin: 20px 20px 15px 20px;
   border: 4px solid white;
 }
 
@@ -115,9 +114,7 @@
 .pop-title {
   font-weight: 700;
   font-size: 22px;
-  margin-top: 35px;
-  margin-left: 5px;
-  margin-right: 10px;
+  margin: 10px 10px 0 5px
 }
 
 .pop-title i{
@@ -159,10 +156,6 @@
   font-weight: bold;
 } 
 
-/* @media screen and (max-width: 768px) {
-
-} */
-
 @media screen and (max-width: 768px) {
 
   #hebergement {
@@ -173,22 +166,23 @@
 
   .heb-container {
     background-color: white;
-    width: 100%;
+    width: 105%;
     display: flex;
     flex-direction:column ;
     border-radius:0 ;
     margin-left: -10px;
+    padding-bottom: 0;
   }
 
   .heb-card {
     width: 90%;
     border: 4px solid white;
     margin-top: 5px;
+    height: 190px;
   }
   
   .heb-card img {
     height: 110px;
-
   }
 
   .heb-title {

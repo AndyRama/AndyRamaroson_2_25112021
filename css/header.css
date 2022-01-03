@@ -1,4 +1,4 @@
- /* css valid */
+ /* css valid W3C */
 
 .flex-center {
   display: flex; 
@@ -35,7 +35,7 @@ li {
   color: black;
 }
 
-.nav ul li a.active {
+.nav ul li a.active{
   color: #0065FC;
 }
 
@@ -156,7 +156,7 @@ li {
 }
 
 .filter {
-  margin-right: 20px;
+  margin-right: 6px;
   padding: 14px 8px 10px 0;
   border: 3px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
@@ -184,7 +184,6 @@ li {
 .filter-btn {
   font-weight: bold;
   margin:0 30px 0 15px;
-  /* margin-left: 15px; */
 }
 
 .sub-info {
@@ -213,11 +212,22 @@ li {
   font-size: 16px;
 }
 
-/* <-- Responsive header for mediascreen < 576px --> */
+/* <-- Responsive header for mediascreen < 992px --> */
+
+@media screen and (max-width: 991px) {
+
+  .filter-title {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+}
+
+/* <-- Responsive header mediascreen 576px --> */
 
 @media screen and (max-width: 576px) {
   
-  /* <-- Responsive header mediascreen 576px --> */
+/* <-- Responsive navbar mediascreen 576px --> */
   .nav {
     flex-direction: column;
     margin-left:  -20px;
@@ -310,7 +320,6 @@ li {
     font-weight:lighter;
   }
   
-  /* <-- Responsive header for mediascreen < 576px --> */
 }
 
 

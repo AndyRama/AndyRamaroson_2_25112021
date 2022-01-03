@@ -1,17 +1,15 @@
- /* css valid */
+ /* css valid W3C */
 
 #activity {
   margin-bottom: 20px;
 }
 
 .act-title {
-  margin-top: 50px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  margin: 50px 0 20px 10px;
 }
 
 .act-container {
-  width: 96%;
+  width: 100%;
   margin: 0;
   padding-bottom: 30px;
 }
@@ -23,7 +21,7 @@
 }
 
 .activity-list .column {
-  width: 23%;
+  width: 24%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,10 +62,11 @@
   height: 35%;
 }
 
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 768px) {
 
   .act-title {
-   margin-top:0;
+   margin-top:50px;
   }
   
   .activity-list {
@@ -80,13 +79,13 @@
 
   .activity-list .column,
   .activity-list .column.double  {
-    width: 96%;
+    width: 100%;
   }
   
   #medium-picture ,
   #small-picture  {
     height: 200px;
-    width: 96%;
+    width: 98%;
     margin-bottom: 25px;
     margin-left: 10px;
   }

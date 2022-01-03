@@ -1,3 +1,4 @@
+ /* css valid */
 
 .flex-center {
   display: flex; 
@@ -29,12 +30,16 @@ li {
   list-style: none;
 }
 
-a {
+.nav ul li a {
   text-decoration: none;
   color: black;
 }
 
-.nav li a:hover {
+.nav ul li a.active {
+  color: #0065FC;
+}
+
+.nav li a:hover{
   color: #0065FC;
 }
 
@@ -224,8 +229,7 @@ a {
     margin-top: 25px;
     width: 100px;
     height: 50px;
-    display: block;
-   
+    display: block;   
   }
   
   .nav li {

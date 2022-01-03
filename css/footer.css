@@ -1,20 +1,20 @@
 .container-footer {
   display: flex;
   flex-direction:row;
-  justify-content:space-around;
-  background-color: #f2f2f2;
+  justify-content:space-between;
+  background-color: #F2F2F2;
   padding: 50px 0 50px 70px;
   margin: auto;
 }
 
 .mentions {
-  width: 33%;
+  width: 30%;
   line-height: 30px;
   padding-left: 20px;
   list-style: none;
 }
 
- .mentions h3{
+ .mentions li h3{
     padding-bottom: 10px
   }
 
@@ -31,8 +31,4 @@
   .mentions {
     width: 80%;
   }
-  
- 
-  
 }
-

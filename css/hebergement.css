@@ -44,7 +44,7 @@
 
 .heb-card {
   width: 30%;
-  height: 190px;
+  height: 200px;
   background-color: white;
   border-radius: 20px;
   margin-bottom: 10px;
@@ -158,6 +158,10 @@
   font-weight: bold;
 } 
 
+@media screen and (max-width: 768px) {
+
+}
+
 @media screen and (max-width: 576px) {
 
   #hebergement {
@@ -185,6 +189,7 @@
     height: 110px;
 
   }
+
   .heb-title {
     margin-top: 30px;
   }

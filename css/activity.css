@@ -52,12 +52,12 @@
   height: 45%;
 }
 
-.small-picture a {
-  height: 35%;
+#medium-picture {
+  height: 55% ;
 }
 
-.medium-picture a {
-  height: 55%;
+#small-picture {
+  height: 35%;
 }
 
 @media screen and (max-width: 576px) {
@@ -79,8 +79,8 @@
     width: 96%;
   }
   
-  .medium-picture a,
-  .small-picture a {
+  #medium-picture ,
+  #small-picture  {
     height: 200px;
     width: 96%;
     margin-bottom: 25px;

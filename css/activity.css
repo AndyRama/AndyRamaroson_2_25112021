@@ -62,8 +62,9 @@
   height: 35%;
 }
 
+/* <-- Responsive header mediascreen 576px --> */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
   .act-title {
    margin-top:50px;
@@ -82,6 +83,8 @@
     width: 100%;
   }
   
+  /* colonne-double cartes differentes tailles */
+
   #medium-picture ,
   #small-picture  {
     height: 200px;

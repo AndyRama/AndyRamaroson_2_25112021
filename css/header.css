@@ -227,7 +227,8 @@ li {
 
 @media screen and (max-width: 576px) {
   
-/* <-- Responsive navbar mediascreen 576px --> */
+  /* <-- Responsive navbar mediascreen 576px --> */
+  
   .nav {
     flex-direction: column;
     margin-left:  -20px;
@@ -318,8 +319,7 @@ li {
     color:black;
     font-size: 16px;
     font-weight:lighter;
-  }
-  
+  }  
 }
 
 

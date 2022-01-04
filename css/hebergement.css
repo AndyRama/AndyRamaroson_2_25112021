@@ -27,7 +27,7 @@
 .heb-title {
   font-weight: bold;
   font-size: 22px ;
-  margin: 28px 0 0 10px;
+  margin: 15px 0 0 10px;
   padding-bottom: 20px;
   width: 100%;
 }
@@ -156,6 +156,8 @@
   font-weight: bold;
 } 
 
+/* <-- Responsive header mediascreen 768px --> */
+
 @media screen and (max-width: 768px) {
 
   #hebergement {
@@ -183,6 +185,7 @@
   
   .heb-card img {
     height: 110px;
+    object-fit: cover;
   }
 
   .heb-title {

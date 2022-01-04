@@ -62,9 +62,9 @@
   height: 35%;
 }
 
-/* <-- Responsive header mediascreen 576px --> */
+/* <-- Responsive header mediascreen 768px --> */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
   .act-title {
    margin-top:50px;

@@ -1,11 +1,8 @@
  /* css valid W3C */
 
-#activity {
-  margin-bottom: 20px;
-}
-
 .act-title {
-  margin: 50px 0 20px 10px;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .act-container {
@@ -65,9 +62,13 @@
 /* <-- Responsive header mediascreen 768px --> */
 
 @media screen and (max-width: 768px) {
+  
+  .act-container {
+    width: calc(100% - 10px);
+  }
 
   .act-title {
-   margin-top:50px;
+   margin-top:30px;
   }
   
   .activity-list {

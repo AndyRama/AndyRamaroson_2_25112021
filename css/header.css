@@ -46,7 +46,6 @@ li {
   font-size: 17px;
   padding: 20px;
   width: 50%;
-  margin-right: 20px;
   padding-top: 40px;
   border-top: 3px solid transparent;
 
@@ -214,17 +213,6 @@ li {
   font-size: 16px;
 }
 
-/* <-- Responsive header for mediascreen < 992px --> */
-
-@media screen and (max-width: 992px) {
-
-  .filter-title {
-    width: 100%;
-    padding-bottom: 20px;
-  }
-
-}
-
 /* <-- Responsive header mediascreen 768px --> */
 
 @media screen and (max-width: 768px) {
@@ -233,8 +221,8 @@ li {
   
   .nav {
     flex-direction: column;
-    margin-left:  -20px;
-    width: calc(100% + 20px);
+    width: calc(100% + 40px);
+    margin-left: -20px;
   }
 
   .nav-logo img {
@@ -248,7 +236,6 @@ li {
   .nav li {
     font-size: 17px;
     width: 50%;
-    margin-right: 5px;
     border-bottom: 3px solid #f2f2f2;
     border-top: none;
     padding: 30px;
@@ -256,7 +243,7 @@ li {
     text-align: center;
   }
   
-  .nav li .active {
+  .nav li a.active {
     border-top: none;
   }
 

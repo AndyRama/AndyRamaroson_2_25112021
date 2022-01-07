@@ -41,7 +41,7 @@
 }
 
 .activity-list .column a h3 {
-  font-size: 16px;
+  font-size: 17px;
   padding: 8px;
   margin-top: 10px;
   margin-left: 12px;
@@ -60,7 +60,6 @@
 }
 
 /* <-- Responsive header mediascreen 768px --> */
-
 @media screen and (max-width: 768px) {
   
   .act-container {

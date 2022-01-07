@@ -3,10 +3,10 @@
 .container-footer {
   display: flex;
   flex-direction:row;
+  max-width: 1240px ;
   background-color: #F2F2F2;
-  padding: 50px 0 50px 10px;
+  padding: 50px 20px;
   margin: auto;
-  width: calc(100% + 10px);
 }
 
 .mentions {
@@ -17,9 +17,9 @@
   padding-bottom: 20px
 }
 
- .mentions li h3 {
-    padding-bottom: 12px
-  }
+.mentions li h3 {
+  padding-bottom: 12px
+}
 
 .mentions li a {
   text-decoration: none;

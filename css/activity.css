@@ -1,4 +1,5 @@
  /* css valid W3C */
+/* <-- Responsive header mediascreen 768px --> */
 
 .act-title {
   margin-bottom: 50px;
@@ -60,6 +61,7 @@
 }
 
 /* <-- Responsive header mediascreen 768px --> */
+
 @media screen and (max-width: 768px) {
   
   .act-container {

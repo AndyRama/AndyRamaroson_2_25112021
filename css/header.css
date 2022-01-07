@@ -1,4 +1,8 @@
- /* css valid W3C */
+/* css valid W3C */
+/*<-- header navbar-->*/
+/* <-- section Seach form --> */
+/* <--  Filtres --> */
+/* <-- Responsive header mediascreen 768px --> */
 
 .flex-center {
   display: flex; 
@@ -47,7 +51,6 @@ li {
 .nav li {
   font-size: 17px;
   padding: 10px;
-  /* width: 50%; */
   padding-top: 40px;
   border-top: 3px solid transparent;
 }
@@ -189,10 +192,6 @@ li {
   left: -4px;
   top: -2px;
 }
-
-/* .filter-icon i {
-  margin-left: 8px;
-} */
   
 .filter-btn {
   font-weight: bold;

@@ -47,6 +47,10 @@
   border-radius: 0 0 20px 20px;
 }
 
+#afficher:hover {
+  color: #0065FC;
+}
+
 .heb-card {
   width: 30%;
   height: 200px;

@@ -3,27 +3,32 @@
 .container-footer {
   display: flex;
   flex-direction:row;
-  justify-content:space-around;
   background-color: #F2F2F2;
-  padding: 50px 0 50px 70px;
+  padding: 50px 0 50px 10px;
   margin: auto;
-  max-width: 100%;
+  width: calc(100% + 10px);
 }
 
 .mentions {
   width: 30%;
-  line-height: 30px;
+  line-height: 32px;
   padding-left: 20px;
   list-style: none;
+  padding-bottom: 20px
 }
 
-.mentions li h3 {
-  padding-bottom: 10px
-}
+ .mentions li h3 {
+    padding-bottom: 12px
+  }
 
 .mentions li a {
   text-decoration: none;
   color: #000;
+}
+  
+.mentions li a:hover {
+  color: #0065FC;
+  font-weight: bold;
 }
 
 /* <-- Responsive header mediascreen 768px --> */
@@ -31,8 +36,8 @@
 @media screen and (max-width: 768px) {
 
   .container-footer{
-    padding: 15px 0 20px 15px;
-    max-width: 100%;
+    padding: 20px 15px 20px 15px;
+    max-width: 100%;   
   }
 
   .mentions {

@@ -47,9 +47,11 @@
   }
 }
 
+
+
 /* <-- Responsive header mediascreen 576px --> */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
   .container-footer{
     display: flex;

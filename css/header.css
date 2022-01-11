@@ -224,6 +224,14 @@ li {
   font-size: 16px;
 }
 
+/* <-- Responsive header mediascreen 992px --> */
+@media screen and (max-width: 991px) {
+
+  #search-bar {
+    justify-content: center; 
+  }
+}
+
 /* <-- Responsive header mediascreen 768px --> */
 
 @media screen and (max-width: 768px) {
@@ -283,6 +291,7 @@ li {
   #search-bar {
     padding-top: 14px;
     margin-bottom: 45px;
+    justify-content: center;
   }
 
   #map-marker {

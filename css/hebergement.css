@@ -31,7 +31,7 @@
 .heb-title {
   font-weight: bold;
   font-size: 22px ;
-  margin: 10px 0 0 10px;
+  margin: 20px 0 0 10px;
   padding-bottom: 20px;
   width: 100%;
 }
@@ -39,7 +39,7 @@
 .heb-link {
   font-weight: bold;
   font-size: 18px ;
-  padding: 25px 0 0 15px;
+  padding: 10px 0 30px 10px; 
   background-color: #f2f2f2;
   border: none;
   width: 100%;
@@ -109,7 +109,7 @@
 .pop-div {
   background-color: white;
   border-radius: 20px;
-  margin: 20px 20px 0px 20px;
+  margin: 15px 20px 2px 20px;
   border: 4px solid white;
 }
 
@@ -122,7 +122,7 @@
 .pop-title {
   font-weight: 700;
   font-size: 22px;
-  margin: 20px 10px 0 10px
+  margin: 20px 10px 10px 10px
 }
 
 .pop-title i{
@@ -202,10 +202,10 @@
 
 @media screen and (max-width: 768px) {
  
-  .heb-card img {
+  /* .heb-card img {
     height: 120px;
   }
-  
+   */
   .heb-title {
     margin-top: 30px;
     margin-bottom: 10px;

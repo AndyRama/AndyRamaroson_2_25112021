@@ -42,7 +42,7 @@
 }
 
 .activity-list .column a h3 {
-  font-size: 16px;
+  font-size: 14px;
   /* padding: 8px; */
   margin-top: 16px;
   margin-left:  8px;
@@ -58,6 +58,14 @@
 
 #small-picture {
   height: 35%;
+}
+
+/* <-- Responsive header mediascreen 992px --> */
+@media screen and (max-width: 991px) {
+
+  .act-title {
+    margin-top: 0px; 
+  }
 }
 
 /* <-- Responsive header mediascreen 768px --> */

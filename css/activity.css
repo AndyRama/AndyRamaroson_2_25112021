@@ -1,5 +1,6 @@
  /* css valid W3C */
-/* <-- Responsive header mediascreen 768px --> */
+/* <-- Responsive activity mediascreen 992px --> */
+/* <-- Responsive activity mediascreen 768px --> */
 
 .act-title {
   margin-top: 50px;
@@ -43,7 +44,6 @@
 
 .activity-list .column a h3 {
   font-size: 14px;
-  /* padding: 8px; */
   margin-top: 16px;
   margin-left:  8px;
 }
@@ -60,7 +60,7 @@
   height: 35%;
 }
 
-/* <-- Responsive header mediascreen 992px --> */
+/* <-- Responsive activity mediascreen 992px --> */
 @media screen and (max-width: 991px) {
 
   .act-title {
@@ -68,7 +68,7 @@
   }
 }
 
-/* <-- Responsive header mediascreen 768px --> */
+/* <-- Responsive activity mediascreen 768px --> */
 
 @media screen and (max-width: 768px) {
   

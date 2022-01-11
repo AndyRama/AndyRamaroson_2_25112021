@@ -1,4 +1,6 @@
  /* css valid W3C*/
+/* <-- Responsive footer mediascreen 768px --> */
+
 .bg-col-grey {
   background-color: #F2F2F2;
 }
@@ -33,23 +35,7 @@
   font-weight: bold;
 }
 
-/* <-- Responsive header mediascreen 768px --> */
-
-@media screen and (max-width: 768px) {
-
-  .container-footer{
-    padding: 20px 15px 20px 15px;
-    max-width: 100%;   
-  }
-
-  .mentions {
-    width: 100%;
-  }
-}
-
-
-
-/* <-- Responsive header mediascreen 576px --> */
+/* <-- Responsive footer mediascreen 768px --> */
 
 @media screen and (max-width: 768px) {
 

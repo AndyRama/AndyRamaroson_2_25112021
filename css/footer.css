@@ -1,10 +1,12 @@
  /* css valid W3C*/
+.bg-col-grey {
+  background-color: #F2F2F2;
+}
 
 .container-footer {
   display: flex;
   flex-direction:row;
   max-width: 1240px ;
-  background-color: #F2F2F2;
   padding: 50px 20px;
   margin: auto;
 }
@@ -12,7 +14,7 @@
 .mentions {
   width: 30%;
   line-height: 32px;
-  padding-left: 20px;
+  padding-left: 12px;
   list-style: none;
   padding-bottom: 20px
 }

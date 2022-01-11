@@ -2,14 +2,14 @@
 /* <-- Responsive header mediascreen 768px --> */
 
 .act-title {
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .act-container {
   width: 100%;
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .activity-list {
@@ -19,7 +19,7 @@
 }
 
 .activity-list .column {
-  width: 24%;
+  width: 23%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,10 +42,10 @@
 }
 
 .activity-list .column a h3 {
-  font-size: 17px;
-  padding: 8px;
-  margin-top: 10px;
-  margin-left: 12px;
+  font-size: 16px;
+  /* padding: 8px; */
+  margin-top: 16px;
+  margin-left:  8px;
 }
 
 .activity-list .column.double a  {
@@ -66,6 +66,12 @@
   
   .act-container {
     width: calc(100% - 10px);
+  }
+  
+  .activity-list .column a h3 {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 30px;
   }
 
   .act-title {

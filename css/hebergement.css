@@ -57,7 +57,7 @@
   border-radius: 20px;
   margin-bottom: 20px;
   border: 3px solid white;
-  box-shadow: 0px 0px 10px 0px #E0E0E0;
+  box-shadow: 0px 5px 10px 0px #E0E0E0;
 } 
 
 .heb-card img {
@@ -109,7 +109,7 @@
 .pop-div {
   background-color: white;
   border-radius: 20px;
-  margin: 20px 20px 15px 20px;
+  margin: 20px 20px 0px 20px;
   border: 4px solid white;
 }
 
